@@ -14,8 +14,8 @@ public class Pedidos {
     private int numero3;
     
 
-    public Pedidos(int confir,int numero1,int numero2,int numero3 ){
-        this.confir = confir;
+    public Pedidos(int numero1,int numero2,int numero3 ){
+        
         this.numero1 = numero1;
         this.numero2 = numero2;
         this.numero3 = numero3;
@@ -71,13 +71,13 @@ public void impri(){
     confir = sc.nextInt();
     if (confir == 1){    
     if (numero1 < 10){
-        System.out.println("temos:" +numero1+" unidades");
+        System.out.println("quantos feijão temos:" +numero1+" unidades");
     }
     if (numero2 < 10){
-        System.out.println("temos:" +numero2 +" unidades");
+        System.out.println("quantos arroz temos:" +numero2 +" unidades");
     }    
         if (numero3 < 10) {
-            System.out.println("temos:" +numero3 +" unidades");   
+            System.out.println("quantas carnes temos:" +numero3 +" unidades");   
         }
     }
     
